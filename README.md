@@ -23,6 +23,12 @@ The program name is `streem` (not `stream`).
 
     $ streem
 
+## Installing dependencies
+
+* bison
+* flex
+* gcc / clang
+
 ## Link
 
 https://github.com/matz/streem
