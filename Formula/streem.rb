@@ -11,6 +11,7 @@ class Streem < Formula
   end
 
   test do
-    system "false"
+    hello_text = shell_output("#{bin}/streem -e '[\"hello\"] | stdout'")
+    assert_equal "hello\n", hello_text
   end
 end
