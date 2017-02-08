@@ -7,7 +7,7 @@ class Streem < Formula
 
   def install
     system "make"
-    cp_r "bin", "#{prefix}"
+    cp_r "bin", prefix
   end
 
   test do
